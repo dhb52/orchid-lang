@@ -16,5 +16,6 @@
     "require": {},
     "bin": [
         "lang"
-    ]
+    ],
+    "minimum-stability": "stable"
 }
