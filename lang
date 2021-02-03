@@ -168,7 +168,9 @@ function main($argc, $argv)
     $keys = find_translation_keys();
     $new_translations = sync_translations($old_translations, $keys);
 
-    $fix ?? update_lang_files($new_translations);
+    if ($fix) {
+        update_lang_files($new_translations);
+    }
     summary($new_translations, $old_translations);
 }
 
