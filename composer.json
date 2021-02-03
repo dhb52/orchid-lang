@@ -1,0 +1,20 @@
+{
+    "name": "dhb52/orchid-lang",
+    "keywords": [
+        "orchid",
+        "platform",
+        "i18n"
+      ],
+    "description": "Language tool for Orchid Platform",
+    "authors": [
+        {
+            "name": "dhb52",
+            "email": "dhb52@126.com"
+        }
+    ],
+    "license": "MIT",
+    "require": {},
+    "bin": [
+        "lang"
+    ]
+}
