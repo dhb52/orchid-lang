@@ -160,7 +160,7 @@ function update_lang_files($new_translations)
 function main($argc, $argv)
 {
     $fix = false;
-    if ($argc == 2 || in_array($argv[1], array('--fix', '-f'))) {
+    if ($argc == 2 && in_array($argv[1], array('--fix', '-f'))) {
         $fix = true;
     }
 
